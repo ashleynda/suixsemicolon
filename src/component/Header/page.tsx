@@ -28,7 +28,7 @@ export default function Header() {
                     width={500}
                     height={300}/>
             </div>
-            <div className="flex justify-evenly rounded-xl bg-white p-6 shadow-lg mx-56 mt-16">
+            <div className="flex justify-evenly rounded-xl bg-white p-6 shadow-lg relative translate-y-12 mx-auto -mt-8 w-full max-w-4xl px-4">
                 <div className="grid gap-6 md:gap-12 md:grid-cols-3">
                     <div className="flex items-center gap-3">
                         <IoCalendarClearOutline className="text-blue-600 w-10 h-10" />
