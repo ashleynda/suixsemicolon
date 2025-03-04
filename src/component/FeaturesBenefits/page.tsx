@@ -20,11 +20,11 @@ export default function FeaturesBenefits() {
     ];
 
     return (
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 md:mb-16">
             <div className="bg-blue-100 py-16 px-8 sm:px-8">
                 <div className="max-w-xl mx-auto">
                     <p className="text-xl sm:text-2xl font-bold text-blue-600 mb-6">Features of the Hacker House</p>
-                    <ul className="list-disc list-inside text-[#020817] marker:text-blue-600 space-y-3 leading-7">
+                    <ul className="list-disc list-inside text-[#020817] space-y-3 leading-7">
                         {features.map((feature, index) => (
                             <li key={index}>{feature}</li>
                         ))}
@@ -35,7 +35,7 @@ export default function FeaturesBenefits() {
             <div className="bg-blue-50/30 py-16 px-8 sm:px-8">
                 <div className="max-w-xl mx-auto">
                     <p className="text-xl sm:text-2xl font-bold text-blue-600 mb-6">Benefits for Participating Teams</p>
-                    <ul className="list-disc list-inside text-[#020817] marker:text-blue-600 space-y-3 leading-7">                      
+                    <ul className="list-disc list-inside text-[#020817] space-y-3 leading-7">                      
                          {benefits.map((benefit, index) => (
                             <li key={index}>{benefit}</li>
                         ))}

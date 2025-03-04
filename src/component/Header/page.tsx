@@ -21,6 +21,7 @@ export default function Header() {
                     height={30}
                 />
             </div>
+            <div className="flex flex-col items-center justify-center gap-4">
             <div className="flex justify-center mt-6 object-contain">
                 <img
                     src="/assets/HackerHouseNew.svg"
@@ -28,6 +29,8 @@ export default function Header() {
                     width={500}
                     height={300}/>
             </div>
+                <p className="text-cyan-300 italic text-2xl">Road to Sui Overflow</p>
+                </div>
             <div className="flex justify-evenly rounded-xl bg-white p-6 shadow-lg relative translate-y-12 mx-auto -mt-8 w-full max-w-4xl px-4">
                 <div className="grid gap-6 md:gap-12 md:grid-cols-3">
                     <div className="flex items-center gap-3">
