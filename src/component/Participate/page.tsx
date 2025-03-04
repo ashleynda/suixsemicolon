@@ -10,7 +10,7 @@ export default function Participate () {
     ]
     return (
         // <div className="grid gap-8 md:grid-cols-2">
-        <div className="mx-auto max-w-6xl px-4 py-8 grid gap-8 md:grid-cols-2">
+        <div className="mx-auto max-w-6xl grid gap-8 md:grid-cols-2">
             <div>
                 <Image
                     src="/assets/participation-requirement-image.png"
