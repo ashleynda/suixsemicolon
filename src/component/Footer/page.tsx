@@ -32,7 +32,6 @@ export default function Footer() {
                 </div>
             </div>
 
-            {/* <div className="max-w-6xl mx-auto px-4 flex flex-col sm:flex-row items-cente justify-center gap-8 p-6 sm:p-12">         */}
             <div className="flex max-w-6xl gap-4 mt-8 px-4">
                 <Image
                     src="/assets/semicolon-logo.svg"

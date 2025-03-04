@@ -9,7 +9,6 @@ export default function Participate () {
         "Intellectual property created by teams during the hacker house will be retained by those teams.",
     ]
     return (
-        // <div className="grid gap-8 md:grid-cols-2">
         <div className="mx-auto max-w-6xl grid gap-8 md:grid-cols-2">
             <div>
                 <Image
